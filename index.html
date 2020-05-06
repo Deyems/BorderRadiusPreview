@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" >
+  <title> Border Radius Previewer </title>
+  <link rel="stylesheet" href="style.css">
+  <script src="main.js" defer></script>
+</head>
+<body>
+  <div class="wrapper">
+    <h1>FANCY-BORDER-RADIUS</h1>
+    <div class="circle-bdr">
+      <div class="circle"></div>
+      <div class="topdot dot"></div>
+      <div class="rightdot dot"></div>
+      <div class="bottomdot dot"></div>
+      <div class="leftdot dot"></div>
+    </div>
+    <div class="radius-result">
+        <p>Border-radius:</p>
+        <div class="result">
+          <span class="top-left">50%</span>
+          <span class="top-right">50%</span>
+          <span class="bottom-right">50%</span>
+          <span class="bottom-left">50%</span>
+          <span>/</span>
+          <span class="top-left">50%</span>
+          <span class="top-right">50%</span>
+          <span class="bottom-right">50%</span>
+          <span class="bottom-left">50%</span>
+        </div>
+      <div class="copy-tool">Copy</div>
+    </div>
+
+    <div class="size">
+      <span>Custom size:</span>
+      <!-- <div class="">
+        <input type="radio" id="toggle-left">
+        <input type="radio" id="toggle-right">
+      </div> -->
+
+      <div class="adjustControl">
+        <label>
+          Width:
+        </label>
+          <input type="number" id="width" value="300" min="5" max="1000" step="20">
+        <label>
+          Height:
+        </label>
+          <input type="number" id="height" value="350" min="5" max="1000" step="20">
+      </div>
+    </div>
+
+  </div>
+</body>
+
+</html>
